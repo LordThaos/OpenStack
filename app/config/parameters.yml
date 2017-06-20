@@ -4,10 +4,10 @@ parameters:
     database_port: null
     database_name: openstack
     database_user: root
-    database_password: null
+    database_password: mgall
     mailer_transport: smtp
     mailer_host: smtp.gmail.com
     mailer_user: thaosdu69@gmail.com
-    mailer_password: phenix-69
+    mailer_password: null
     locale: fr
     secret: ThisTokenIsNotSoSecretChangeIt
