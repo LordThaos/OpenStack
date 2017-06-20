@@ -1,0 +1,44 @@
+<form action="{{ path('fos_user_profile_edit') }}" {{ form_enctype(form) }} method="POST" class="fos_user_profile_edit">
+    
+    <table class="table table-striped">
+        <thead>
+        </thead>
+
+        <tbody>
+                
+            <tr>
+                <th>{{ form_label(form.username) }}</th>
+                <td>{{ form_widget(form.username) }}</td>
+            </tr>
+            <tr>
+                <th>{{ form_label(form.email) }}</th>
+                <td>{{ form_widget(form.email) }}</td>
+            </tr>
+            <tr>
+                <th>{{ form_label(form.nom) }}</th>
+                <td>{{ form_widget(form.nom) }}</td>
+            </tr>
+            <tr>
+                <th>{{ form_label(form.prenom) }}</th>
+                <td>{{ form_widget(form.prenom) }}</td>
+            </tr>
+            <tr>
+                <th>{{ form_label(form.dateNaissance) }}</th>
+                <td>{{ form_widget(form.dateNaissance) }}</td>
+            </tr>
+            <tr>
+                <th>{{ form_label(form.telephone) }}</th>
+                <td>{{ form_widget(form.telephone) }}</td>
+            </tr>
+            <tr>
+                <th>{{ form_label(form.current_password) }}</th>
+                <td>{{ form_widget(form.current_password) }}</td>
+            </tr>
+            
+        </tbody>
+    </table>
+        
+    <div>
+        <input type="submit" value="{{ 'profile.edit.submit'|trans({}, 'FOSUserBundle') }}" />
+    </div>
+</form>

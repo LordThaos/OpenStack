@@ -1,0 +1,24 @@
+openstack_commande_homepage:
+    path:     /home/
+    defaults: { _controller: OpenStackcommandeBundle:Commande:index }
+    
+    
+openstack_commande_commande:
+    path:   /commande/
+    defaults: { _controller: OpenStackcommandeBundle:Commande:commande }
+    
+openstack_commande_valider:
+    path:     /validation_commande/{id}
+    defaults: { _controller: OpenStackcommandeBundle:Commande:valider }
+    
+openstack_commande_connexion:
+    path:     /connexion/
+    defaults: { _controller: OpenStackcommandeBundle:Commande:connexion }
+    
+#openstack_commande_inscription:
+#    path:     /inscription/
+#    defaults: { _controller: OpenStackcommandeBundle:Commande:inscription }
+    
+openstack_commande_produits:
+    path:     /produits/
+    defaults: { _controller: OpenStackcommandeBundle:Commande:listeProduits }

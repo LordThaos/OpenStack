@@ -1,0 +1,10 @@
+services:
+#    open_stack_user.example:
+#        class: OpenStack\UserBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
+
+    # Champ de formulaire type telephone
+    openstack.form.type.telephone:
+        class: OpenStack\UserBundle\Form\Type\TelephoneType
+        tags:
+            - { name: form.type, alias: telephone }

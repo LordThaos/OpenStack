@@ -1,0 +1,41 @@
+{% extends "::layout.html.twig" %}
+
+{% block title %}
+    Confirmation de la commande - {{ parent() }}
+{% endblock %}
+
+{% block body %}
+    
+<div class="row">
+    <div class="box">
+        <div class="col-lg-12">
+            <h2>Confirmation de la commande</h2>
+
+            <table class="table table-striped">
+                <thead>
+                    <th>Nom</th>
+                    <th>Description</th>
+                    <th>Prix</th>
+                </thead>
+
+                <tbody>
+                        <tr>
+                            <td>{{ produit.nom }}</td>
+                            <td>{{ produit.description }}</td>
+                            <td>{{ produit.prix }}</td>
+                        </tr>
+                </tbody>
+            </table>
+
+            <p>Confirmer la commande?</p>
+            {{ form_start(form) }}
+                {{ form_widget(form) }}
+            {{ form_end(form) }}
+        </div>
+    </div>
+</div>
+    
+{% endblock %}
+
+{% block javascripts %}
+{% endblock %}

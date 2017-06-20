@@ -1,0 +1,35 @@
+{% extends "::layout.html.twig" %}
+
+{% block body %}
+
+<div class="row">
+    <div class="box">
+        <div class="col-lg-12">
+            <hr>
+            <h2 class="intro-text text-center">Connexion</h2>
+            <hr>
+            
+            {# S'il y a une erreur, on l'affiche dans un joli cadre #}
+            {% if error %}
+              <div class="alert alert-danger">{{ error.message }}</div>
+            {% endif %}
+
+            {# Le formulaire, avec URL de soumission vers la route « login_check » comme on l'a vu #}
+            <form action="{{ path('login_check') }}" method="post">
+              <label for="username">Nom d'utilisateur :</label>
+              <input type="text" id="username" name="_username" value="{{ last_username }}" />
+              <br/><br/>
+              <label for="password">Mot de passe :</label>
+              <input type="password" id="password" name="_password" />
+              <br /><br/>
+              <label>
+                  <input type="checkbox" value="remember-me" required checked>Se souvenir de moi?
+              </label>
+              <br /><br/>
+              <input type="submit" value="Connexion" />
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
