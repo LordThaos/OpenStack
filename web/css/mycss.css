@@ -1,0 +1,20 @@
+
+.vitrine
+{
+    overflow: auto;
+}
+
+.bloc
+{
+    background-color: white;
+    border: 3px solid #999;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    width: calc((100% - 20px) / 4 - 15px);
+}
+
+.center
+{
+    text-align: center;
+}
