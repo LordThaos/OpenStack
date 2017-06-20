@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/wamp64/www/OpenStack/app/Resources/views/layout.html.twig</file>
+            <file>file:/C:/wamp64/www/OpenStack/src/OpenStack/commandeBundle/Resources/views/Commande/index.html.twig</file>
+            <file>file:/C:/wamp64/www/OpenStack/src/OpenStack/UserBundle/Controller/RegistrationController.php</file>
+            <file>file:/C:/wamp64/www/OpenStack/src/OpenStack/commandeBundle/Controller/CommandeController.php</file>
+            <file>file:/C:/wamp64/www/OpenStack/src/OpenStack/UserBundle/Resources/config/services.yml</file>
+            <file>file:/C:/wamp64/www/OpenStack/app/config/config.yml</file>
+            <file>file:/C:/wamp64/www/OpenStack/src/OpenStack/UserBundle/Form/Type/UserType.php</file>
+            <file>file:/C:/wamp64/www/OpenStack/src/OpenStack/UserBundle/Controller/SecurityController.php</file>
+            <file>file:/C:/wamp64/www/OpenStack/src/OpenStack/UserBundle/Form/Type/RegistrationFormType.php</file>
+            <file>file:/C:/wamp64/www/OpenStack/app/config/routing.yml</file>
+            <file>file:/C:/wamp64/www/OpenStack/src/OpenStack/UserBundle/Resources/views/Security/inscription.html.twig</file>
+        </group>
+    </open-files>
+</project-private>
